@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: 110px;
+  width: 100%;
+  background: #00000078;
+  text-transform: capitalize;
+  border-radius: 17px;
+  box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  margin: 4px 5px;
+  padding: 20px 30px;
+}
+
+li {
+  list-style-type: none;
+  width: 100%;
+}

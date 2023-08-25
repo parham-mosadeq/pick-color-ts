@@ -1,0 +1,34 @@
+.color-container {
+  text-transform: capitalize;
+  font-family: inherit;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  max-width: 560px;
+  margin: 4rem auto;
+}
+
+.color_heads h5 {
+  color: #d5019d;
+  cursor: pointer;
+  width: fit-content;
+  margin: 1.3rem auto;
+}
+
+.selected-color {
+  width: 320px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.3);
+  margin: 3px auto;
+  padding: 1rem 3rem;
+  background-color: rgb(19, 15, 37);
+}
+
+.selected-color p {
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.selected-color:hover {
+  cursor: pointer;
+}
